@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Careers | Join the Kulfi Shulfi Team</title>
+<meta name="description" content="Be a part of something delicious. See current openings at Kulfi Shulfi or send us a general application.">
+<meta property="og:title" content="Careers | Kulfi Shulfi">
+<meta property="og:image" content="assets/img/brand/team.jpg">
+<meta name="theme-color" content="#D1175C">
+<link rel="icon" href="assets/img/brand/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="careers">
+<a class="skip" href="#main">Skip to content</a>
+<header id="site-header"></header>
+
+<main id="main">
+  <section class="page-head">
+    <div class="container">
+      <span class="eyebrow" style="color:var(--yellow)">Careers</span>
+      <h1>Be a Part of Something Delicious.</h1>
+      <p class="lead">We're always looking for passionate people who want to grow with us and be part of our journey.</p>
+      <div class="btn-row"><a class="btn btn-yellow" href="#apply">Apply Now</a></div>
+    </div>
+    <div class="flower-band" aria-hidden="true"></div>
+  </section>
+
+  <section class="section">
+    <div class="container split">
+      <div class="photo-frame tilt reveal"><img src="assets/img/brand/team.jpg" alt="The Kulfi Shulfi team" width="1400" height="1050" loading="lazy"></div>
+      <div class="reveal d1">
+        <span class="eyebrow">Current Opportunities</span>
+        <h2>Open positions</h2>
+        <p class="lead">Here's where we're hiring right now.</p>
+      </div>
+    </div>
+    <div class="container"><div class="jobs" data-jobs></div></div>
+  </section>
+
+  <section class="section alt" id="apply" style="scroll-margin-top:90px">
+    <div class="container form-wrap">
+      <div class="reveal">
+        <span class="eyebrow">General Applications</span>
+        <h2>Don't see the right role? Tell us about yourself.</h2>
+        <p class="lead">Send us your details even if there's no vacancy that fits right now. We'll keep you in mind as we grow.</p>
+      </div>
+      <div class="form-card reveal d1">
+        <form data-form="careers" enctype="multipart/form-data" novalidate>
+          <div class="form-grid">
+            <div class="full"><label for="fullname">Full Name <span class="req">*</span></label><input id="fullname" name="full_name" type="text" required autocomplete="name"></div>
+            <div><label for="cemail">Email <span class="req">*</span></label><input id="cemail" name="email" type="email" required autocomplete="email"></div>
+            <div><label for="cphone">Phone Number <span class="req">*</span></label><input id="cphone" name="phone" type="tel" required autocomplete="tel"></div>
+            <div class="full"><label for="position">Position Interested In <span class="req">*</span></label><input id="position" name="position" type="text" required placeholder="e.g. Production, Sales, General application"></div>
+            <div class="full"><label for="resume">Resume Upload <span class="req">*</span></label><input id="resume" name="resume" type="file" accept=".pdf,.doc,.docx" required><p class="form-note" style="margin-top:6px">PDF or Word document.</p></div>
+            <div class="full"><label for="intro">Short Introduction <span class="req">*</span></label><textarea id="intro" name="introduction" required></textarea></div>
+            <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+          </div>
+          <div class="btn-row"><button class="btn btn-primary" type="submit">Apply Now</button></div>
+          <div class="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="site-footer"></footer>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

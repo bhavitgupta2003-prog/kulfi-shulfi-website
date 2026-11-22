@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Store Locator | Find Kulfi Shulfi Near You</title>
+<meta name="description" content="Find your nearest Kulfi Shulfi store, search by area or locality and get directions on Google Maps.">
+<meta property="og:title" content="Store Locator | Kulfi Shulfi">
+<meta name="theme-color" content="#D1175C">
+<link rel="icon" href="assets/img/brand/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="stores">
+<a class="skip" href="#main">Skip to content</a>
+<header id="site-header"></header>
+
+<main id="main">
+  <section class="page-head">
+    <div class="container">
+      <span class="eyebrow" style="color:var(--yellow)">Store Locator</span>
+      <h1>Your Favourite Kulfi Is Closer Than You Think.</h1>
+      <p class="lead">Find a Kulfi Shulfi outlet near you and tap Get Directions to open it in Google Maps.</p>
+    </div>
+    <div class="flower-band" aria-hidden="true"></div>
+  </section>
+
+  <section class="section" style="padding-top:clamp(32px,5vw,56px)">
+    <div class="container">
+      <div class="store-tools">
+        <div class="search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+          <input id="store-search" type="search" placeholder="Search by area or locality…" aria-label="Search stores by area or locality" autocomplete="off">
+        </div>
+        <span class="store-count" id="store-count" aria-live="polite"></span>
+      </div>
+      <div class="store-layout" id="store-layout">
+        <div class="store-grid" data-stores></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="site-footer"></footer>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
